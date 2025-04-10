@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Classic Water Bottle",
+    "image": "https://m.media-amazon.com/images/I/51v9iSHQn+L._AC_SL1500_.jpg",
+    "price": 15.99
+  },
+  {
+    "name": "Sports Bottle",
+    "image": "https://m.media-amazon.com/images/I/61E82-nwyyL._AC_SL1500_.jpg",
+    "price": 12.49
+  },
+  {
+    "name": "Insulated Steel Bottle",
+    "image": "https://m.media-amazon.com/images/I/61E82-nwyyL._AC_SL1500_.jpg",
+    "price": 22.99
+  },
+  {
+    "name": "Glass Infuser Bottle",
+    "image": "https://m.media-amazon.com/images/I/71sOQvvRebL._AC_SL1500_.jpg",
+    "price": 18.99
+  },
+  {
+    "name": "Collapsible Travel Bottle",
+    "image": "https://m.media-amazon.com/images/I/61+bdzHT4pL._AC_SL1500_.jpg",
+    "price": 14.99
+  },
+  {
+    "name": "Thermal Flask",
+    "image": "https://m.media-amazon.com/images/I/61OrD1o4uIL._AC_SL1500_.jpg",
+    "price": 24.99
+  },
+  {
+    "name": "Plastic Sipper Bottle",
+    "image": "https://m.media-amazon.com/images/I/61BsvYue26L._AC_SL1500_.jpg",
+    "price": 9.99
+  },
+  {
+    "name": "Aluminum Trekking Bottle",
+    "image": "https://m.media-amazon.com/images/I/61jSYObCcdL._AC_SL1500_.jpg",
+    "price": 16.49
+  },
+  {
+    "name": "Eco-friendly Bamboo Bottle",
+    "image": "https://m.media-amazon.com/images/I/81zP9HwOryL._AC_SL1500_.jpg",
+    "price": 19.99
+  },
+  {
+    "name": "Kids Cartoon Bottle",
+    "image": "https://m.media-amazon.com/images/I/71wzVljAeSL._AC_SL1500_.jpg",
+    "price": 11.99
+  }
+]

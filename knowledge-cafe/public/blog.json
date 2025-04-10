@@ -1,0 +1,53 @@
+[
+    {
+      "id": 1,
+      "cover_photo_url": "https://i.ibb.co.com/Rk617DCK/flipsnack-Hp4-RPL-Z6w-E-unsplash.jpg",
+      "title": "Mastering JavaScript Closures",
+      "author": "John Doe",
+      "author_image": "https://i.ibb.co.com/TDpVSXHv/writers-scene-concept.jpg",
+      "posted_date": "2025-03-20",
+      "reading_time": 6,
+      "Hashtags": ["#JavaScript", "#Closures", "#WebDevelopment"]
+    }, 
+    {
+      "id": 2,
+      "cover_photo_url": "https://i.ibb.co.com/67GmKFwh/van-tay-media-S2-AKd-WQo-Q-unsplash.jpg",
+      "title": "Understanding the Event Loop in JavaScript",
+      "author": "Jane Smith",
+      "author_image": "https://i.ibb.co.com/q3MDCSgY/photo-indignant-dark-skinned-young-author-wears-transparent-glasses-casual-clothes-writes-down-notes.jpg",
+      "posted_date": "2025-03-18",
+      "reading_time": 8,
+      "Hashtags": ["#JavaScript", "#EventLoop", "#AsyncProgramming"]
+    },
+    {
+      "id": 3,
+      "cover_photo_url": "https://i.ibb.co.com/G35nDxQQ/tai-bui-Grc-Md1-Fvuc-Y-unsplash.jpg",
+      "title": "A Guide to JavaScript ES6+ Features",
+      "author": "Alice Johnson",
+      "author_image": "https://i.ibb.co.com/LDw6NfX5/front-view-young-female-sitting-black-shirt-blue-jeans-writing-down-notes-thinking-yellow-background.jpg",
+      "posted_date": "2025-03-15",
+      "reading_time": 10,
+      "Hashtags": ["#JavaScript", "#ES6", "#ModernJS"]
+    },
+    {
+      "id": 4,
+      "cover_photo_url": "https://i.ibb.co.com/KcrDDbLw/safar-safarov-LKs-Hwgzyk7c-unsplash.jpg",
+      "title": "Functional Programming in JavaScript",
+      "author": "Bob Williams",
+      "author_image": "https://i.ibb.co.com/cS54LptT/writers-scene-concept-1.jpg",
+      "posted_date": "2025-03-12",
+      "reading_time": 7,
+      "Hashtags": ["#JavaScript", "#FunctionalProgramming", "#Coding"]
+    },
+    {
+      "id": 5,
+      "cover_photo_url": "https://i.ibb.co.com/Wpvw5xvn/altumcode-o-Z61-KFUQsus-unsplash.jpg",
+      "title": "Optimizing JavaScript Performance",
+      "author": "Emily Davis",
+      "author_image": "https://i.ibb.co.com/FbxjWzRJ/joyous-woman-presenting-reading-new-novel-from-author.jpg",
+      "posted_date": "2025-03-10",
+      "reading_time": 9,
+      "Hashtags": ["#JavaScript", "#Performance", "#Optimization"]
+    }
+  ]
+  

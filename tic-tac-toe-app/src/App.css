@@ -1,0 +1,27 @@
+.Square{
+  /* float:left; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid gray;
+  height: 80px;
+  width: 70px;
+  cursor: pointer;
+  background-color: rgb(249, 159, 159);
+  
+}
+.board-row{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+} 
+.tic-tac-board{
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */ 
+  margin-left: 500px;
+  margin-right: 500px; 
+  background-color: rgb(235, 235, 250);
+
+}

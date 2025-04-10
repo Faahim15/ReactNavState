@@ -1,0 +1,11 @@
+.bottle{
+    border: 1px solid black;
+    width: 200px;
+    /* height: 50%; */
+    overflow: hidden;
+}
+.bottle-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
