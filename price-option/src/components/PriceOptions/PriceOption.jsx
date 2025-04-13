@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const PriceOption = ({gymInfo}) =>{
     const {name,feature,price} = gymInfo;
     return (
-        <div className="bg-blue-500 mr-3 flex flex-col text-center rounded-md p-4" >
+        <div className="bg-blue-500 mr-3 flex flex-col  text-center rounded-md p-4" >
             <h2>
                 <span className=" text-7xl font-extrabold">{price}</span>
                 <span className="text-2xl">/mon</span>
