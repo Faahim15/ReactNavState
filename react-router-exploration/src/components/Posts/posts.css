@@ -1,0 +1,18 @@
+
+.posts
+{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+        grid-auto-rows: 1fr; /* Ensures rows take equal height */
+        gap: 10px; /* Adds spacing between items */
+        align-items: stretch; /* Ensures items take full row height */ 
+        height: 100vh;
+  }
+  
+  .post {
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+  }

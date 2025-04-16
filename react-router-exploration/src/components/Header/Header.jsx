@@ -1,15 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,NavLink } from 'react-router-dom'; 
+import './Header.css'
 const Header = () => {
     return (
         <div>
             <h2>My website</h2> 
             <nav>
                
-                <Link style={{marginRight:'30px'}} to={'/'} >Home</Link> 
-                <Link style={{marginRight:'30px'}} to={'/about'} >About</Link> 
-                <Link style={{marginRight:'30px'}} to={'/contact'} >Contact us</Link> 
-                <Link style={{marginRight:'30px'}} to={'/users'} >Users</Link> 
+                <NavLink style={{marginRight:'30px'}} to={'/'} >Home</NavLink> 
+                <NavLink style={{marginRight:'30px'}} to={'/about'} >About</NavLink> 
+                <NavLink style={{marginRight:'30px'}} to={'/contact'} >Contact us</NavLink> 
+                <NavLink style={{marginRight:'30px'}} to={'/posts'} >Posts</NavLink> 
+                <NavLink style={{marginRight:'30px'}} to={'/users'} >Users</NavLink> 
             </nav>
         </div>
     );
