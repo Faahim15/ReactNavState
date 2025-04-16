@@ -1,0 +1,12 @@
+.user{  
+    display: flex;
+    flex-direction: column;
+    border: 1px solid orchid;
+    border-radius: 10px;
+    padding: 30px; 
+    justify-content: center;
+    align-items: center;
+} 
+.user_data{
+    flex-grow: 1;
+}
