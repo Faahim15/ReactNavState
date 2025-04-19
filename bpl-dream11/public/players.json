@@ -1,0 +1,352 @@
+[
+    {
+      "name": "Shakib Al Hasan",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/1G3zgwBD/Shakib-Al-Hasan.jpg",
+      "role": "Allrounder",
+      "batting_style": "Left-handed",
+      "is_wicketkeeper": false,
+      "bowling_style": "Left-arm orthodox spin",
+      "price": 150000,
+      "team": null,
+      "available": true,
+      "total_runs": 2200,
+      "average_strike_rate": 130.4,
+      "total_wickets": 115,
+      "economy_rate": 6.9,
+      "recent_form": {
+        "last_5_matches": [
+          "45",
+          "2/23",
+          "37",
+          "3/15",
+          "28"
+        ],
+        "fantasy_points": [
+          60,
+          45,
+          50,
+          70,
+          38
+        ]
+      },
+      "overall_fantasy_points": 263,
+      "fantasy_rank": 1,
+      "id": 1
+    },
+    {
+      "name": "Liton Das",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/DP0bpDtn/Liton-Das.jpg",
+      "role": "Batter",
+      "batting_style": "Right-handed",
+      "is_wicketkeeper": true,
+      "bowling_style": null,
+      "price": 130000,
+      "team": null,
+      "available": true,
+      "total_runs": 1850,
+      "average_strike_rate": 136.7,
+      "total_wickets": 0,
+      "economy_rate": null,
+      "recent_form": {
+        "last_5_matches": [
+          "54",
+          "8",
+          "73",
+          "22",
+          "45"
+        ],
+        "fantasy_points": [
+          70,
+          10,
+          92,
+          28,
+          65
+        ]
+      },
+      "overall_fantasy_points": 265,
+      "fantasy_rank": 2,
+      "id": 2
+    },
+    {
+      "name": "Mustafizur Rahman",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/hxDthsd1/MUSTAFIZUR-RAHMAN.jpg",
+      "role": "Bowler",
+      "batting_style": "Left-handed",
+      "is_wicketkeeper": false,
+      "bowling_style": "Left-arm fast-medium",
+      "price": 140000,
+      "team": null,
+      "available": true,
+      "total_runs": 100,
+      "average_strike_rate": 85.0,
+      "total_wickets": 98,
+      "economy_rate": 6.5,
+      "recent_form": {
+        "last_5_matches": [
+          "1/25",
+          "2/30",
+          "0/19",
+          "3/21",
+          "1/17"
+        ],
+        "fantasy_points": [
+          35,
+          50,
+          10,
+          75,
+          40
+        ]
+      },
+      "overall_fantasy_points": 210,
+      "fantasy_rank": 3,
+      "id": 3
+    },
+    {
+      "name": "Tamim Iqbal",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/tpGNWYbV/103-vs-West-Indies-St-Kitts-2018.jpg",
+      "role": "Batter",
+      "batting_style": "Left-handed",
+      "is_wicketkeeper": false,
+      "bowling_style": null,
+      "price": 125000,
+      "team": null,
+      "available": true,
+      "total_runs": 1460,
+      "average_strike_rate": 124,
+      "total_wickets": 0,
+      "economy_rate": null,
+      "recent_form": {
+        "last_5_matches": [
+          "23",
+          "1/28",
+          "46",
+          "0/30",
+          "18"
+        ],
+        "fantasy_points": [
+          38,
+          32,
+          49,
+          24,
+          42
+        ]
+      },
+      "overall_fantasy_points": 185,
+      "fantasy_rank": 4,
+      "id": 4
+    },
+    {
+      "name": "Taskin Ahmed",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/ZpjFJZfK/Taskin-Ahmed-Bangladeshi-Fast-Bowller-Taskin-Ahmed-Bangladesh-Cricket.jpg",
+      "role": "Bowler",
+      "batting_style": "Right-handed",
+      "is_wicketkeeper": false,
+      "bowling_style": "Right-arm fast",
+      "price": 120000,
+      "team": null,
+      "available": true,
+      "total_runs": 1450,
+      "average_strike_rate": 125,
+      "total_wickets": 20,
+      "economy_rate": 8.5,
+      "recent_form": {
+        "last_5_matches": [
+          "23",
+          "1/28",
+          "46",
+          "0/30",
+          "18"
+        ],
+        "fantasy_points": [
+          39,
+          33,
+          50,
+          25,
+          43
+        ]
+      },
+      "overall_fantasy_points": 190,
+      "fantasy_rank": 5,
+      "id": 5
+    },
+    {
+      "name": "Afif Hossain",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/mrBvK8q1/Afif-Hossain.jpg",
+      "role": "Allrounder",
+      "batting_style": "Left-handed",
+      "is_wicketkeeper": false,
+      "bowling_style": "Right-arm offbreak",
+      "price": 115000,
+      "team": null,
+      "available": true,
+      "total_runs": 1440,
+      "average_strike_rate": 126,
+      "total_wickets": 20,
+      "economy_rate": 6.5,
+      "recent_form": {
+        "last_5_matches": [
+          "23",
+          "1/28",
+          "46",
+          "0/30",
+          "18"
+        ],
+        "fantasy_points": [
+          40,
+          34,
+          51,
+          26,
+          44
+        ]
+      },
+      "overall_fantasy_points": 195,
+      "fantasy_rank": 6,
+      "id": 6
+    },
+    {
+      "name": "Mehidy Hasan Miraz",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/xKY8DfrS/Is-Mehidy-Hasan-Miraz-best-Bangladeshi-all-rounder-in-2022.jpg",
+      "role": "Allrounder",
+      "batting_style": "Right-handed",
+      "is_wicketkeeper": false,
+      "bowling_style": "Right-arm offbreak",
+      "price": 135000,
+      "team": null,
+      "available": true,
+      "total_runs": 1430,
+      "average_strike_rate": 127,
+      "total_wickets": 20,
+      "economy_rate": 7.5,
+      "recent_form": {
+        "last_5_matches": [
+          "23",
+          "1/28",
+          "46",
+          "0/30",
+          "18"
+        ],
+        "fantasy_points": [
+          41,
+          35,
+          52,
+          27,
+          45
+        ]
+      },
+      "overall_fantasy_points": 200,
+      "fantasy_rank": 7,
+      "id": 7
+    },
+    {
+      "name": "Soumya Sarkar",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/DPh1HPxL/Soumya-Sarkar.jpg",
+      "role": "Batter",
+      "batting_style": "Left-handed",
+      "is_wicketkeeper": false,
+      "bowling_style": "Right-arm medium",
+      "price": 110000,
+      "team": null,
+      "available": true,
+      "total_runs": 1420,
+      "average_strike_rate": 128,
+      "total_wickets": 0,
+      "economy_rate": null,
+      "recent_form": {
+        "last_5_matches": [
+          "23",
+          "1/28",
+          "46",
+          "0/30",
+          "18"
+        ],
+        "fantasy_points": [
+          42,
+          36,
+          53,
+          28,
+          46
+        ]
+      },
+      "overall_fantasy_points": 205,
+      "fantasy_rank": 8,
+      "id": 8
+    },
+    {
+      "name": "Nurul Hasan",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/9H9RSxkq/What-did-Sohan-say-after-losing-the-series.jpg",
+      "role": "Batter",
+      "batting_style": "Right-handed",
+      "is_wicketkeeper": true,
+      "bowling_style": null,
+      "price": 105000,
+      "team": null,
+      "available": true,
+      "total_runs": 1410,
+      "average_strike_rate": 129,
+      "total_wickets": 0,
+      "economy_rate": null,
+      "recent_form": {
+        "last_5_matches": [
+          "23",
+          "1/28",
+          "46",
+          "0/30",
+          "18"
+        ],
+        "fantasy_points": [
+          43,
+          37,
+          54,
+          29,
+          47
+        ]
+      },
+      "overall_fantasy_points": 210,
+      "fantasy_rank": 9,
+      "id": 9
+    },
+    {
+      "name": "Nasum Ahmed",
+      "country": "Bangladesh",
+      "profile_picture_url": "https://i.ibb.co.com/QvtggrxS/Nasum-Ahmed-included-in-the-Bangladesh-squad-for-Dhaka-Test-vs-India.jpg",
+      "role": "Bowler",
+      "batting_style": "Left-handed",
+      "is_wicketkeeper": false,
+      "bowling_style": "Left-arm orthodox spin",
+      "price": 98000,
+      "team": null,
+      "available": true,
+      "total_runs": 1400,
+      "average_strike_rate": 130,
+      "total_wickets": 20,
+      "economy_rate": 7.5,
+      "recent_form": {
+        "last_5_matches": [
+          "23",
+          "1/28",
+          "46",
+          "0/30",
+          "18"
+        ],
+        "fantasy_points": [
+          44,
+          38,
+          55,
+          30,
+          48
+        ]
+      },
+      "overall_fantasy_points": 215,
+      "fantasy_rank": 10,
+      "id": 10
+    }
+  ]
