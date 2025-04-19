@@ -18,7 +18,7 @@ const Header = () => {
            <menu onClick={()=>{
             setIsClicked(!isClicked);
            }} className='md:hidden mr-4 font-medium'>{isClicked?<RxCross1 />:<RiMenu3Fill />}</menu> 
-           <ul className={`md:flex md:space-x-6 md:mt-0 md:static absolute md:top-0 top-12 right-0 ${!isClicked&&'hidden'}`}>
+           <ul className={`md:flex md:text-black text-white md:space-x-6 md:mt-0 md:static absolute md:top-0 top-12 right-0 ${!isClicked&&'hidden'} md:bg-white bg-black`}>
                 <li>Home</li>
                 <li>Fixture</li>
                 <li>Teams</li>
@@ -29,9 +29,7 @@ const Header = () => {
             </ul> 
             
            </div> 
-          
-            
-           
+        
      </div>
         
     );
