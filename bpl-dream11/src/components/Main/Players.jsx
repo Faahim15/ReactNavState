@@ -3,9 +3,9 @@ import { CiFlag1 } from "react-icons/ci";
 const Players = ({player}) => { 
     const {name,profile_picture_url,role,price,batting_style} = player;
     return (
-        <div className='border bg-white border-gray-300 p-3 rounded-lg' >
+        <div className='border bg-white border-gray-300 p-3 rounded-lg w-[300px]' >
              <div className='text-[14px]'  > 
-                 <img className='h-[300px] w-full rounded-lg' src={profile_picture_url} alt="" /> 
+                 <img className='h-[250px] w-[300px] rounded-lg' src={profile_picture_url} alt="" /> 
                  <div className='flex space-x-2 my-3'>
                  <img className='h-6 w-6 rounded-full' src={profile_picture_url} alt="" />                     
                  <h2 className='font-bold text-[18px]' >{name}</h2> 

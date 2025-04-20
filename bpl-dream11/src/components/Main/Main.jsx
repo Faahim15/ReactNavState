@@ -14,13 +14,13 @@ const Main = () => {
     return (
         <div>
             <div className='flex justify-between mt-7 mx-2' >
-                <h3 className='text-2xl font-black' >Avalaible palyers</h3> 
-                <div className='flex border border-gray-300 rounded-lg w-46' >
-                <button className='bg-[#E7FE29] px-3 py-2 w-18 rounded-lg'>Available</button>
-                <button className='py-2 px-2 w-18 text-gray-500 '>Selected(0)</button>
+                <h3 className='md:text-2xl font-black py-1' >Avalaible palyers</h3> 
+                <div className='flex border border-gray-300 rounded-lg md:w-46 font-bold' >
+                <button className='bg-[#E7FE29] md:px-3 md:py-2 md:w-18 rounded-lg px-1 py-1'>Available</button>
+                <button className='md:py-2 md:px-2 md:w-18 text-gray-500 px-1 py-1' >Selected(0)</button>
                 </div>
             </div> 
-           <div className='grid grid-cols-5 mt-4 mx-2 gap-3' >
+           <div className='grid grid-cols-1 md:grid-cols-4 mt-4 mx-2 gap-3 place-items-center' >
            {
                 players.map((player)=><Players key={player.id} player={player} ></Players>)
             }
