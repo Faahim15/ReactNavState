@@ -1,18 +1,31 @@
+import { useState } from "react";
 import Banner from "./components/Banner/Banner"
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header"
 import Main from "./components/Main/Main"
-
+import { ToastContainer, toast } from 'react-toastify'; 
 function App() {
-  
+  const [coin, setCoin]= useState(0);
+     const topCenter = () => { 
+                 if(!toast.isActive('credit-toast')){
+                    toast.success('Hey 👋! Credit added to your account. ', {
+                        position: 'top-center',
+                        autoClose: 1000, 
+                        toastId:'credit-toast'
+                      });
+                 }
+                  
+                setCoin(coin+600000);
+              
+          }; 
 
   return (
     <div>
         
-        <Header></Header> 
-        <Banner></Banner> 
-        <Main></Main>
-        <Footer></Footer>
+        <Header topCenter={topCenter} coin={coin} ></Header> 
+        <Main setCoin={setCoin} coin={coin} ></Main>
+        <Footer></Footer> 
+        <ToastContainer />
     </div>
   )
 }

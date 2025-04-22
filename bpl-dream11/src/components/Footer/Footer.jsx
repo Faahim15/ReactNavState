@@ -5,28 +5,29 @@ const Footer = () => {
     const year = new Date().getFullYear();
     return (
         <div>
-            <div className='bg-[#06091A] relative  text-white text-[14px] mt-[200px] h-auto ' > 
-                <div className='absolute border border-white p-2 rounded-lg w-1/2 top-[-100px] left-1/2 transform -translate-x-1/2 '>
-                    <div className='text-black border border-[#FBE0B4] grid gap-y-2 place-items-center rounded-lg p-4' style={{
+            <div className='bg-[#06091A] relative  text-white text-[14px] mt-[150px] h-auto ' > 
+                <div className='absolute border border-white p-2 rounded-lg w-[80%] md:top-[-100px] top-[-80px] left-1/2 transform -translate-x-1/2 '>
+                    <div className='md:text-black border border-[#FBE0B4] grid gap-y-1 place-items-center rounded-lg md:py-6 py-4 text-[#FBCA57]' style={{
                     background: 'linear-gradient(30deg, transparent 70%, #BFE9F8 100%), linear-gradient(-30deg, transparent 70%, #FBE0B4 100%)'
                         }}
  >
-                    <p className='font-black text-3xl' >Subscribe to our newsletter</p> 
-                    <span className='font-medium text-gray-600' >Get the latest updates and news write in your inbox</span>
-                   <div>
-                   <input type="email" placeholder='Enter your email' className='text-[14px] px-2 py-2 focus:outline outline-[#FBE0B4] outline-2 outline-offset-2 rounded-md w-[300px]'/> <button type="button" className='border border-white rounded px-2 py-2 w-[100px] text-white'>Subscribe</button>
+                    <p className='font-bold md:text-3xl text-xl' >Subscribe to our newsletter</p> 
+                    <span className='md:font-semibold text-[#588c9f] md:text-gray-700 font-light' >Get the latest updates and news write in your inbox</span>
+                   <div className='flex  gap-x-1' >
+                   <input type="email" placeholder='Enter your email' className='text-[14px] px-2 py-2 focus:outline outline-[#FBE0B4] outline-2 outline-offset-2 rounded-md md:w-[300px]'/> 
+                   <button type="button" className='border md:border-white rounded px-2 py-2 w-[100px] md:text-white font-semibold border-blue-200'>Subscribe</button>
                    </div>
                     </div>
                 </div> 
                   <div className='grid place-items-center mb-4' >
                   <img className='mt-[100px]' src={logo} alt="" />
                   </div>
-                   <div className=' bg-[#040D11] grid grid-cols-3 place-items-center mt-auto  text-gray-400 mb-2' >
-                    <div className='w-[260px] mb-auto' > 
-                        <h1 className='font-semibold text-white pb-1'>About us</h1>  
+                   <div className=' bg-[#040D11] md:grid md:grid-cols-3 md:place-items-center mt-auto  text-gray-400 mb-2 flex flex-col justify-center items-center gap-y-5' >
+                    <div className='md:w-[260px] md:mb-auto w-[300px] text-justify' > 
+                        <h1 className='font-semibold text-white pb-1 text-center'>About us</h1>  
                         We are passionate team dedicated to provide best serivices for your customers.
                     </div>
-                    <div className='flex flex-col gap-y-1 mb-2'> 
+                    <div className='flex flex-col gap-y-1 md:mb-2 mb-0'> 
                     <h1 className='font-semibold text-white'>Quick Links</h1> 
                      <li>Home</li>
                      <li>Services</li>
@@ -34,7 +35,7 @@ const Footer = () => {
                      <li>Contact</li>
                     </div>
                     <div className='grid gap-y-1' > 
-                    <h1 className='font-semibold text-white'>Subscribe</h1>
+                    <h1 className='font-semibold text-white text-center'>Subscribe</h1>
                         Subscribe to our newsletter for the latest updates. 
                         <input type="email" placeholder='Enter your email' className='text-[14px] px-2 py-2 focus:outline outline-[#FBE0B4] outline-1 outline-offset-1 rounded-md'/> <button type="button" className='border border-white rounded px-2 py-2'>Subscribe</button>
                     </div>
