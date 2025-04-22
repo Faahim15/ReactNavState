@@ -22,7 +22,7 @@ const Header = ({topCenter,coin}) => {
            <menu onClick={()=>{
             setIsClicked(!isClicked);
            }} className='md:hidden mr-4 font-medium'>{isClicked?<RxCross1 />:<RiMenu3Fill />}</menu> 
-           <ul className={`md:flex md:text-black text-white md:space-x-6 md:mt-0 md:static absolute md:top-0 top-12 right-0 ${!isClicked&&'hidden'} `}>
+           <ul className={`md:flex grid md:gap-y-0 gap-y-2  md:text-black text-white md:space-x-6 md:mt-0 md:static absolute md:top-0 top-12 right-0 ${!isClicked&&'hidden'}  md:rounded-none rounded md:p-0 p-8 md:mr-0 mr-3 md:bg-transparent bg-black bg-opacity-60 font-bold `}>
                 <li>Home</li>
                 <li>Fixture</li>
                 <li>Teams</li>

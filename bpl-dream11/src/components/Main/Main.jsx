@@ -72,9 +72,9 @@ const Main = ({setCoin,coin}) => {
         <div>
             <div className='flex justify-between mt-7 mx-2' >
                 <h3 className='md:text-2xl font-black py-1' >{isAvailable?'Avalaible players':`Selected players(${selectedPlayers.length||0}/6)`}</h3> 
-                <div className='flex border border-gray-300 rounded-lg md:w-46 font-bold' >
-                <button onClick={()=>setIsAvailable(true)} className={`${isAvailable &&'bg-[#E7FE29]'} md:px-3 md:py-2 md:w-18  px-1 py-1`}>Available</button>
-                <button onClick={()=>setIsAvailable(false)} className={`${!isAvailable&&'bg-[#E7FE29]'} md:py-2 md:px-2 md:w-18 text-gray-500 px-1 py-1 `} >Selected({selectedPlayers.length})</button>
+                <div className='flex border border-gray-300 rounded md:w-46 font-bold' >
+                <button onClick={()=>setIsAvailable(true)} className={`${isAvailable &&'bg-[#E7FE29]'} md:px-3 md:py-2 md:w-18  px-1 py-1 rounded`}>Available</button>
+                <button onClick={()=>setIsAvailable(false)} className={`${!isAvailable&&'bg-[#E7FE29]'} md:py-2 md:px-2 md:w-18 text-gray-500 px-1 py-1 rounded`} >Selected({selectedPlayers.length})</button>
                 </div>  
             </div> 
             <div className={`${!isAvailable&&'flex flex-col gap-2 mt-4'}`} >
