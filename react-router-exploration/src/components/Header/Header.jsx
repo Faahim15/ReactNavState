@@ -12,6 +12,8 @@ const Header = () => {
                 <NavLink style={{marginRight:'30px'}} to={'/contact'} >Contact us</NavLink> 
                 <NavLink style={{marginRight:'30px'}} to={'/posts'} >Posts</NavLink> 
                 <NavLink style={{marginRight:'30px'}} to={'/users'} >Users</NavLink> 
+                <NavLink style={{marginRight:'30px'}} to={'/forms'} >Forms</NavLink> 
+                <NavLink style={{marginRight:'30px'}} to={'/reusableForm'} >Resuable Forms</NavLink> 
             </nav>
         </div>
     );

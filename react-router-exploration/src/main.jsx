@@ -13,6 +13,9 @@ import UserDetails from './components/UserDetails/UserDetails';
 import Posts from './components/Posts/Posts';
 import PostDetails from './components/PostDetails/PostDetails';
 import ErrorPage from './components/ErrorPage/ErrorPage';
+import HooksForm from './components/HooksForm/HooksForm';
+import ReusableForm from './components/ReusableForm/ReusableForm';
+import ReusableWrapper from './components/ReusableWrapper/ReusableWrapper';
 
 const router = createBrowserRouter([
   {
@@ -47,7 +50,16 @@ const router = createBrowserRouter([
           path:'/post/:postId',
           loader: ({params})=>fetch(`https://jsonplaceholder.typicode.com/posts/${params.postId}`),
           element: <PostDetails></PostDetails>
-        }
+        },
+        {
+          path:'/forms',
+          element: <HooksForm></HooksForm>
+        },
+        {
+          path:'/reusableForm',
+          element: <ReusableWrapper></ReusableWrapper>
+        },
+
     ]
   },
   
